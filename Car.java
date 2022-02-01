@@ -3,8 +3,12 @@ public class Car {
     int odometer;
     int time;
     int fuel;
-    public Car(int speed, int fuel) {
-        this.speed = speed;
+	
+	String color;
+	
+    public Car(String color, int speed, int fuel) {
+        this.color = color;
+		this.speed = speed;
         odometer = 0;
         time = 0;
         this.fuel = 10;
